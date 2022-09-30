@@ -1,8 +1,8 @@
 V = $(shell git describe --abbrev=0)
 
-FILE_PREFIX = chaotic
+FILE_PREFIX = 46620
 PREFIX = /usr/local
-DEFAULT_KEY = 3056513887B78AEB
+DEFAULT_KEY = 12D08400A54A5B2F
 
 install:
 	install -dm755 $(DESTDIR)$(PREFIX)/share/pacman/keyrings/

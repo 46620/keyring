@@ -5,9 +5,9 @@ export LANG=C
 TMPDIR=$(mktemp -d)
 trap "rm -rf '${TMPDIR}'" EXIT
 
-FILE_PREFIX="chaotic"
-KEY_DESCRIPTION="PedroHLC's Chaotic-AUR"
-KEY_EMAIL="chaotic-aur@pedrohlc.com"
+FILE_PREFIX="46620"
+KEY_DESCRIPTION="46620's Repo"
+KEY_EMAIL="46620osu@gmail.com"
 
 #KEYSERVER='hkp://pgp.ustc.edu.cn'
 #KEYSERVER='hkp://pool.sks-keyservers.net'
